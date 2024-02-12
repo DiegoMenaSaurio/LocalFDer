@@ -3,7 +3,7 @@
 LocalFDRer is a Python script that calculates the local FDR from a subpopulation of PSMs with a 
 specific type of post-translational modification using PSMs.txt files from Proteome Discoverer 2.5 as input
 
-**Syntax:**LocalFDRer.py -cConfig_LocalFDRer.txt
+**Syntax**:LocalFDRer.py -cConfig_LocalFDRer.txt
 
 The necessary parameters to execute LocalFDRer must be indicated in the "Config_LocalFDRer.txt" configuration file:
 * **infile** is the path to the directory containing the PSMs.txt files;
