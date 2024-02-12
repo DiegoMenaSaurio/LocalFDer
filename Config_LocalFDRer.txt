@@ -1,0 +1,33 @@
+#
+# localFDRer
+#
+
+#Path to the directory containing the PSMs.txt files
+infile: S:\U_Proteomica\LABS\LAB_FSM\Centrosome_PTMs\CLOSE-SEARCH-proteomes\Label-free_Exos_mouseTcell_Torralba\TFAM_exos_label_free_PD25
+
+#Path to the output file containing the PSMs remaining after local FDR filtering
+outfile: C:\Users\dmenas\Desktop\programa
+
+#Final name file
+finalname: pruebaclase.txt
+
+#Decoy PSM indicator
+decoy_prefix: DECOY_
+
+#Residues (separated by comma) to be considered for the calculation of the local FDR
+aminoacids_list: E
+
+#Unimod modification on amino_acids to be considered for the calculation of the local FDR
+modification_to_count: Methyl
+
+#Amino acids to exclude
+amino_acids_to_exclude: K
+
+#Unimod modification on aminoacids to exclude to be exluded from the calculation of the local FDR
+modification_to_exclude: Methyl
+
+#FDR threshold:
+FDR: 0.01
+
+
+
